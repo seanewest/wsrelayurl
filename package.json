@@ -1,13 +1,9 @@
 {
   "name": "wsrelayurl",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
+  "description": "A websocket server that broadcasts back everything it receives to everyone connected",
+  "main": "index.js",
+  "bin": "cmd.js",
   "license": "ISC",
   "dependencies": {
     "through": "^2.3.6",
